@@ -1,0 +1,64 @@
+.content{
+    padding-left: 48px;
+    padding-right: 40px;
+    margin-top: 3.5rem;
+    max-width: 525px;
+}
+.genre{
+    color: rgba(255, 255, 255, 0.76);
+    font-family: "inter",sans-serif;
+}
+.title{
+    color: white;
+    font-size: 4rem;
+    font-family: "inter",sans-serif;
+    margin-top: 1.5rem;
+}
+.bright{
+    color: white;
+    font-family: "inter",sans-serif;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+.bright-gray{
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.76);
+}
+.description{
+    font-size: 14px;
+    font-family: "inter",sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    margin-top: 1rem;
+}
+.buttons{
+    font-size: 14px;
+    margin-top: 2rem;
+    font-family: "inter",sans-serif;   
+}
+.buttons .btn-red{
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 15px;
+    transition: background-color 100ms ease-in;
+}
+.buttons .btn-red:hover,
+.buttons .btn-red:focus{
+    background-color: rgb(187, 0, 0);
+}
+.buttons .btn-white-strock{
+    border-radius: 2px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 15px;
+    transition: color 100ms ease-in;
+    transition: background-color 100ms ease-in;
+}
+.buttons .btn-white-strock:hover,
+.buttons .btn-white-strock:focus{
+    background-color: white;
+    color: red;
+}

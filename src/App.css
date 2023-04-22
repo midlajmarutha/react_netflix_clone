@@ -1,0 +1,10 @@
+.Hero{
+  background-color: black;
+  height: 100vh;
+  background-image: url('D:\Projects\Websites\Netflix clone\Netflix_clone\src\assets\images\banner-image.jpg');
+  background-size: cover;
+}
+.fade{
+  height: 100%;
+  background: linear-gradient(-80deg,transparent,black);
+}

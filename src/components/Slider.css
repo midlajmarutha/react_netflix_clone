@@ -1,0 +1,30 @@
+.container{
+    padding-left: 48px;
+    padding-right: 40px;
+}
+.heading{
+    margin-top: 2rem;
+    color: white;
+    font-family: "inter",sans-serif;   
+}
+.card{
+    margin-left: 20px;
+    margin-top: 2rem;
+    width: 100px;
+    transition: transform 300ms ease-in-out;
+}
+.card-image{
+    border-radius: 10px;
+    width: 100%;
+}
+.card-text{
+    color: white;
+    font-family: "inter",sans-serif;   
+}
+.card-space{
+    display: flex;
+}
+.card:hover{
+    transform: scale(1.5);
+    transform: translateX(10);
+}
